@@ -1,0 +1,86 @@
+C:\Users\kkh\Desktop>cd DojoAssignments
+
+C:\Users\kkh\Desktop\DojoAssignments>mkdir gittest
+
+C:\Users\kkh\Desktop\DojoAssignments>cd gittest
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git init
+Initialized empty Git repository in C:/Users/kkh/Desktop/DojoAssignments/gittest
+/.git/
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>copy NUL index.htm.
+        1 file(s) copied.
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>copy NUL index.html
+        1 file(s) copied.
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>copy NUL style.css
+        1 file(s) copied.
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>copy NUL aboutME.txt
+        1 file(s) copied.
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git commit -m "gittest project buil
+t and committed"
+On branch master
+
+Initial commit
+
+Untracked files:
+        aboutME.txt
+        index.html
+        style.css
+
+nothing added to commit but untracked files present
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>aboutME.txt
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git add aboutME.txt
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git commit -m "work dad sleep repea
+t"
+[master (root-commit) 73902db] work dad sleep repeat
+ 1 file changed, 4 insertions(+)
+ create mode 100644 aboutME.txt
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git log
+commit 73902dbef7687b152468f1ea5380e158ab3e8467 (HEAD -> master)
+Author: kennethhagist <kenhagist@gmail.com>
+Date:   Sat Jun 10 12:54:24 2017 -0700
+
+    work dad sleep repeat
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git add aboutME.txt
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git commit -m "added favorite movie
+ to aboutME"
+[master 7098b80] added favorite movie to aboutME
+ 1 file changed, 2 insertions(+)
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git log
+commit 7098b80b17eeea0d91583afdd6b8851f02346c02 (HEAD -> master)
+Author: kennethhagist <kenhagist@gmail.com>
+Date:   Sat Jun 10 12:57:22 2017 -0700
+
+    added favorite movie to aboutME
+
+commit 73902dbef7687b152468f1ea5380e158ab3e8467
+Author: kennethhagist <kenhagist@gmail.com>
+Date:   Sat Jun 10 12:54:24 2017 -0700
+
+    work dad sleep repeat
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git add aboutME.txt
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git revert -n HEAD
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git revert -n 7098b80
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git add aboutME.txt
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>git commit -m "added favorite book
+to aboutME"
+[master 9640710] added favorite book to aboutME
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+C:\Users\kkh\Desktop\DojoAssignments\gittest>Dir /s /b
